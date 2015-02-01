@@ -35,3 +35,53 @@ printf "\n"
 printf "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\
 Phasellus mattis ac tortor sed fringilla. Etiam aliquam\
 turpis sit amet nisi molestie, nec accumsan massa tempus.\n"
+
+################################## Operating Variables ##################################
+
+# Numbers
+foo=23
+bar=19
+baz=$(($foo+$bar))				# Plus
+echo "$foo + $bar is: $baz"
+
+foo=69
+bar=27
+baz=$(($foo-$bar))				# Minus
+echo "$foo - $bar is: $baz"
+
+foo=7
+bar=6
+baz=$(($foo*$bar))				# Multiply
+echo "$foo * $bar is: $baz"
+
+foo=420
+bar=10
+baz=$(($foo/$bar))				# Divide
+echo "$foo / $bar is: $baz"
+
+foo=429
+bar=43
+baz=$(($foo%$bar))				# Module
+echo "$foo mod $bar is: $baz"
+
+foo=6.48074069840786
+bar=2
+baz=`echo $foo^$bar | bc -l`	#Pow
+echo "$foo to the power of $bar is: $baz"
+
+# Strings
+foo="Bash"
+bar="Works"
+echo $foo" "$bar
+
+foo='"It Wokrs"' # Single quotes print literally text
+echo $foo
+
+foo="Lorem ipsum dolor sit amet"
+echo "$foo" | tr ' ' '_' # Replace 
+
+foo="Lorem ipsum dolor sit amet"
+echo "${foo:0:1}"	# First char on string "Lorem ipsum dolor sit amet"
+echo "${foo:6:12}"	# 6 till 12 chars on string "Lorem ipsum dolor sit amet"
+echo "${foo:0:5}"	# First 5 chars on string "Lorem ipsum dolor sit amet"
+echo "${foo:6:20}"	# 6 till the end chars on string "Lorem ipsum dolor sit amet"
