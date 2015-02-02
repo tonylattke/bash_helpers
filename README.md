@@ -13,3 +13,4 @@ Run file:
 | 2_data_structures.sh	| - Using basic data structures (Tuple, Array) |
 | 3_conditionals.sh		| - Using if and switch-case |
 | 4_loops.sh			| - Using loops (While and For) |
+| 5_functions_methods.sh| - Using functions and methods |
