@@ -14,3 +14,4 @@ Run file:
 | 3_conditionals.sh		| - Using if and switch-case |
 | 4_loops.sh			| - Using loops (While and For) |
 | 5_functions_methods.sh| - Using functions and methods |
+| 6_libraries.sh		| - Using libraries (Datetime and random) |
