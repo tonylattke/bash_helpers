@@ -16,5 +16,5 @@ Run file:
 | 5_functions_methods.sh| - Using functions and methods |
 | 6_libraries.sh		| - Using libraries (Datetime and random) |
 | 7_io.sh 				| - Read standard input and manipulate files |
-| 8_0_export_data.m		| - Functions and variables created to be exported |
-| 8_1_importing_files.m	| - Import file |
+| 8_0_export_data.sh		| - Functions and variables created to be exported |
+| 8_1_importing_files.sh	| - Import file |
